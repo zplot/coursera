@@ -17,6 +17,7 @@ object Main {
       def father: Int = if (c == 0) 0 else pascal(c - 1, r - 1)
       def mother: Int = if (c == r) 0 else pascal(c, r - 1)
       if (c == 0 && r == 0) 1 else father + mother
+
   }
   
   /**
