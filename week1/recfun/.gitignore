@@ -1,5 +1,6 @@
-# Created by .ignore support plugin (hsz.mobi)
-### Scala template
+# Created by https://www.gitignore.io/api/scala
+
+### Scala ###
 *.class
 *.log
 
@@ -14,7 +15,12 @@ src_managed/
 project/boot/
 project/plugins/project/
 
-# Scala-IDE specific
-.scala_dependencies
-.worksheet
+# User-specific stuff:
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+
+/out/
 
