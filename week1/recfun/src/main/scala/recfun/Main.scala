@@ -13,7 +13,11 @@ object Main {
   /**
    * Exercise 1
    */
-    def pascal(c: Int, r: Int): Int = ???
+    def pascal(c: Int, r: Int): Int = {
+      def father: Int = if (c == 0) 0 else pascal(c - 1, r - 1)
+      def mother: Int = if (c == r) 0 else pascal(c, r - 1)
+      if (c == 0 && r == 0) 1 else father + mother
+  }
   
   /**
    * Exercise 2
